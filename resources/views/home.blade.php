@@ -13,6 +13,10 @@
   <!-- title and icon -->
   <title>Laravel Comics</title>
   <link rel="icon" href="{{ url('/logo-small.ico') }}">
+
+  <!-- css -->
+  @vite('resources/js/app.js')
+  
 </head>
 
 <body>
