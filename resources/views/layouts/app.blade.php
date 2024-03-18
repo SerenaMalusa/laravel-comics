@@ -29,6 +29,8 @@
         @include('partials.header')
     </header>
     <main>
+        @include('partials.hero')
+        
         <div class="container text-primary">
 
             @yield('main-content')
