@@ -21,11 +21,21 @@
 </head>
 
 <body>
-  <div class="container text-primary">
 
-    @yield('main-content')
+    <header>
+        @include('partials.header')
+    </header>
+    <main>
+        <div class="container text-primary">
 
-  </div>
+            @yield('main-content')
+    
+        </div>
+    </main>
+    <footer>
+        @include('partials.footer')
+    </footer>
+    
 </body>
 
 </html>
