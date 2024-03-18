@@ -1,17 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="ie=edge" http-equiv="X-UA-Compatible">
-    <title>Document</title>
+<head>
+  <!-- carachters and viewport tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    @vite('resources/js/app.js')
-  </head>
+  <!-- SEO tags -->
+  <meta name="author" content="Serena Malusà" />
+  <meta name="description" content="php exercise">
 
-  <body>
-    <h1>Laravel with Bootstrap + Vite</h1>
-  </body>
+  <!-- title and icon -->
+  <title>Laravel Comics</title>
+  <link rel="icon" href="{{ url('/logo-small.ico') }}">
+</head>
+
+<body>
+  <div class="container text-primary">
+
+    <h1>ciao</h1>
+  </div>
+</body>
 
 </html>
