@@ -8,21 +8,23 @@
 
   <!-- SEO tags -->
   <meta name="author" content="Serena Malusà" />
-  <meta name="description" content="php exercise">
+  <meta name="description" content="laravel exercise">
 
   <!-- title and icon -->
-  <title>Laravel Comics</title>
+  <title>{{ env('APP_NAME')}} - @yield('title')</title>
   <link rel="icon" href="{{ url('/logo-small.ico') }}">
 
   <!-- css -->
   @vite('resources/js/app.js')
+  @yield('specific-css')
   
 </head>
 
 <body>
   <div class="container text-primary">
 
-    <h1>ciao</h1>
+    @yield('main-content')
+
   </div>
 </body>
 
