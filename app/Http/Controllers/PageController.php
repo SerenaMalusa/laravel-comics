@@ -13,6 +13,7 @@ class PageController extends Controller
 
     public function comics()
     {
-        return view(('pages.comics'));
+        $header_links = config('headerLinks');
+        return view('pages.comics', compact('header_links'));
     }
 }
