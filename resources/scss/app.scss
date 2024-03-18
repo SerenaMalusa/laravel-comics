@@ -1,14 +1,18 @@
 // @import "~bootstrap/scss/bootstrap";
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
+:root {
+    --primary-color: #0d6efd;
+}
+
 img {
     max-width: 100%;
 }
 
 ul {
     list-style: none;
+    height: 100%;
 }
-
 a {
     text-decoration: none;
     color: inherit;
@@ -16,6 +20,7 @@ a {
 
 a:hover {
     cursor: pointer;
+    color: var(--primary-color);
 }
 
 #header {
@@ -29,6 +34,10 @@ a:hover {
 
         img {
             height: 70px;
+        }
+
+        .search {
+            border-bottom: 2px solid var(--primary-color);
         }
     }
 }

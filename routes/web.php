@@ -17,3 +17,7 @@ use App\Http\Controllers\PageController;
 Route::get('/', [PageController::class, 'home'])->name('home');
 
 Route::get('/comics', [PageController::class, 'comics'])->name(('comics'));
+// Route::get('/comics', function () {
+//   $header_links = config('headerLinks');
+//   return view('pages.comics', compact('header_links'));
+// });
