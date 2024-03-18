@@ -15,3 +15,5 @@ use App\Http\Controllers\PageController;
 */
 
 Route::get('/', [PageController::class, 'home'])->name('home');
+
+Route::get('/comics', [PageController::class, 'comics'])->name(('comics'));
